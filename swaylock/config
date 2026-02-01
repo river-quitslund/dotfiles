@@ -1,0 +1,47 @@
+# Swaylock configuration matching kitty color scheme
+
+# Show the unlock indicator
+indicator
+indicator-radius=100
+indicator-thickness=7
+
+# Indicator colors (matching Dracula theme)
+indicator-idle-visible
+
+# Inside the indicator circle
+inside-color=1e1f28dd          # background color with transparency
+inside-clear-color=8ae9fcdd    # cyan when clearing (color6)
+inside-ver-color=bd92f8dd      # purple when verifying (color4)
+inside-wrong-color=ff5555dd    # red when wrong password (color1)
+
+# Ring around indicator
+ring-color=44475add            # selection color
+ring-clear-color=8ae9fcff      # cyan when clearing
+ring-ver-color=bd92f8ff        # purple when verifying
+ring-wrong-color=ff5555ff      # red when wrong password
+
+# Text colors
+text-color=f8f8f2              # foreground color
+text-clear-color=1e1f28        # background on clearing
+text-ver-color=1e1f28          # background when verifying
+text-wrong-color=f8f8f2        # foreground when wrong
+
+# Separators
+separator-color=00000000
+
+# Key highlight colors
+key-hl-color=50fa7bff          # green for keypresses (color2)
+bs-hl-color=ff5555ff           # red for backspace (color1)
+
+# Screen background
+color=1e1f28                   # background color
+
+# Font settings
+font=sans-serif
+font-size=24
+
+# Show keyboard layout
+show-keyboard-layout
+
+# Fade in
+fade-in=0.2
